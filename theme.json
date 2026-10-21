@@ -1,0 +1,35 @@
+{
+    "slug": "aviditas",
+    "name": "Aviditas",
+    "preview_gradient": "void-purple",
+    "short": "av",
+    "contract_version": 1,
+    "version": "0.1.0",
+    "madlink_version": ">=0.1.0 <0.2.0",
+    "author": "madLinux7",
+    "requires_alpine": true,
+    "link_type": "link_tile",
+    "static_accent": "light",
+    "avatar_customizable": false,
+    "avatar_breakpoint_class": null,
+    "default_config": {
+        "background": "gradient",
+        "gradient": "void-purple",
+        "custom_gradient": null,
+        "accent_color": "#ffffff",
+        "accent_color_active": true,
+        "font": {
+            "head": {
+                "family": "geist",
+                "weight": 700
+            },
+            "body": {
+                "family": "geist",
+                "weight": 600
+            }
+        },
+        "qr_code": "toggle"
+    },
+    "license": "AGPL-3.0-or-later",
+    "repository_url": "https://github.com/madLinux7/aviditas-madlink-theme"
+}

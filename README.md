@@ -10,7 +10,9 @@ The manifest records supported madlink versions. A GitHub release alone does not
 
 ## Releases
 
-Commit and review changes, set `theme.json` version, then tag `v<version>`. `python3 tools/package.py --tag v0.1.0 --output dist` creates deterministic USTAR/gzip packages, SHA-256 and full file inventories. Tooling and Git metadata are excluded. Never reuse a published version with different bytes. GitHub immutable releases and protected tags must be enabled by the maintainer.
+This repository contains theme sources and license/documentation files only. Packaging and review tools belong to the catalog operator in madLinux7/madlink-themes. Theme authors submit a catalog PR with their GitHub repository URL; a human maintainer reviews the exact source revision and package. No Python tools or GitHub workflows belong in this theme repository.
+
+The maintainer prepares deterministic release archives and checksums centrally, then publishes the approved package bytes to this theme repository’s release. A tag push alone does not publish a package. Never reuse a published version with different bytes; the manifest version and release tag must match.
 
 ## License
 

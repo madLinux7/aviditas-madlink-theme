@@ -1,0 +1,38 @@
+slug = "aviditas"
+name = "Aviditas"
+preview_gradient = "void-purple"
+
+repository_url = "https://github.com/madLinux7/aviditas-madlink-theme"
+author = "madLinux7"
+license = "AGPL-3.0-or-later"
+
+tags = ["Builtin", "Classic", "Modern", "Tiles"]
+screenshots = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+
+theme_version = 1
+contract_version = 1
+madlink_min_version = "0.1.0"
+
+link_type = "link_tile"
+avatar_customizable = false
+requires_alpine = true
+static_accent = "light"
+
+[summary]
+en = "An image-led tile theme with profile hero and sticky header"
+
+[default_config]
+background = "gradient"
+gradient = "void-purple"
+accent_color = "#ffffff"
+accent_color_active = true
+qr_code = "toggle"
+
+[default_config.font]
+[default_config.font.head]
+family = "geist"
+weight = 700
+
+[default_config.font.body]
+family = "geist"
+weight = 600
